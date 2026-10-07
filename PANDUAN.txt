@@ -1,0 +1,23 @@
+FOLDER GITHUB — GAME MURID
+
+Pasang Apps Script dahulu sehingga memperoleh URL Web app /exec.
+
+1. Edit config.js. Cari appsScriptUrl: ''.
+2. Tampal URL /exec di antara tanda petikan. Jangan padam tanda petikan atau kurungan. Save.
+3. Cipta/buka repositori GitHub game ini.
+4. Upload SEMUA ISI folder GITHUB ke akar repositori, bukan folder induk APPS_SCRIPT atau folder GITHUB itu sendiri.
+5. Pastikan index.html dan config.js berada pada aras yang sama.
+6. Settings → Pages → Deploy from a branch → branch utama → /(root) → Save.
+7. Tunggu deployment Pages selesai dan buka URL yang disediakan.
+8. Murid menaip nama, kelas dan kod sesi yang guru dapatkan daripada dashboard.
+
+TIADA fail Apps Script atau Google Sheet perlu dimuat naik ke GitHub.
+TIADA URL lain perlu ditukar dalam index.html jika config.js sudah betul.
+Enjin 3D dan aset terbina dalam index.html. Fail LICENSE_Threejs.txt disertakan untuk lesen.
+
+Pautan GitHub Pages biasa boleh terus dikongsi selepas config.js ditetapkan.
+Tetapan sambungan pada skrin mula masih tersedia sebagai pilihan jika guru tidak mahu mengedit config.js. Jika menggunakan pilihan itu, tekan Salin pautan murid supaya peranti lain menerima sambungan yang sama.
+
+Untuk cuba grafik tanpa sambungan, tekan Cuba demo. Demo tidak menghantar PBD.
+Jika URL Apps Script berubah, kemas kini config.js dan tunggu Pages siap.
+Jika paparan lama kekal, muat semula tanpa cache.
